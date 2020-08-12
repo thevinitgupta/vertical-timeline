@@ -28,12 +28,12 @@ body{
   }
   
   ul{
-    width: 100%;
+      width: 100%;
     background: #fff;
     padding: 50px 0;
   }
     li{
-      background: #5ab9ea;
+      background: #5680e9;
       position: relative;
       margin: 0 auto;
       width: 5px;
@@ -54,7 +54,7 @@ body{
         -webkit-transform: translateX(-50%);
         width: 20px;
         height: 20px;
-        border: 3px solid #5ab9ea/*#c1c8e4*/;
+        border: 3px solid #5680e9/*#c1c8e4*/;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         border-radius: 50%;
@@ -65,7 +65,7 @@ body{
       }
       
       .content{
-        background: #5ab9ea; 
+        background: #5680e9; 
         position: relative;
         top: 7px;
         width: 450px;
@@ -83,7 +83,7 @@ body{
         
         p:before{
           content: '';
-          background: #5ab9ea;
+          background: #5680e9;
           position: absolute;
           top: 0px;
           width: 38px;
@@ -92,9 +92,9 @@ body{
       
       li:nth-child(odd) .content {
         left: 50px;
-        background: #5ab9ea;
-        background: -webkit-linear-gradient(-45deg, #5680e9 , #5ab9ea);
-        background: linear-gradient(-45deg,  #5680e9, #5ab9ea);
+        background: #5680e9;
+        background: -webkit-linear-gradient(-45deg, #5680e9 , #8860d0);
+        background: linear-gradient(-45deg,  #5680e9, #8860d0);
       }
       
       li:nth-child(odd) .content:before {
@@ -103,9 +103,9 @@ body{
       
       li:nth-child(even) .content {
         right: calc(500px);
-        background: #5ab9ea;
-        background: -webkit-linear-gradient(45deg, #5680e9 , #5ab9ea);
-        background: linear-gradient(45deg,  #5680e9 , #5ab9ea);
+        background: #5680e9;
+        background: -webkit-linear-gradient(45deg, #5680e9 , #8860d0);
+        background: linear-gradient(45deg,  #5680e9 , #8860d0);
       }
       
       li:nth-child(even) .content:before {
