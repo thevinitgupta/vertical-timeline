@@ -28,7 +28,8 @@ body{
   }
   
   ul{
-    background: #faf8eb;
+    width: 100%;
+    background: #84ceeb;
     padding: 50px 0;
   }
     li{
